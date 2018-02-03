@@ -3,10 +3,10 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout
+title:            Paul Samsotha
 tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
-url:              https://fongandrew.github.io/hydeout
+description:      "Paul Samsotha's developer blog"
+url:              https://paulsamsotha.com
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
@@ -14,8 +14,8 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # sidebar_blog_link below.
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           'Paul Samsotha'
+  url:            https://github.com/psamsotha
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -34,4 +34,11 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/fongandrew/hydeout
+  repo:             https://github.com/psamsotha/paulsamsotha.com
+
+urls:
+  github:           https://github.com/psamsotha
+  stackoverflow:    https://stackoverflow.com/users/2587435
+  twitter:          https://twitter.com/PaulSamsotha
+  facebook:         https://www.facebook.com/paul.samsotha
+  googleplus:       https://plus.google.com/111592399635035486991  

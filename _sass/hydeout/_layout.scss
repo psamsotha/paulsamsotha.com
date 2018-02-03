@@ -158,6 +158,9 @@ body {
 
     > *:last-child {
       margin-bottom: 0;
+      @media(min-width: $large-breakpoint) {
+        margin-bottom: 100px;
+      }
     }
   }
 
@@ -178,7 +181,9 @@ body {
     }
   }
 
-  .index #sidebar { margin-bottom: 0; }
+  .index #sidebar {
+    margin-bottom: 0;
+  }
 
   // Make entire container background white to contrast against sidebar
   .container {
@@ -215,7 +220,7 @@ body {
   color: #fff;
 
   svg {
-    fill: rgba(255, 255, 255, 0.85);
+    fill: rgba(255, 255, 255, 0.85) !important;
   }
 
   &:hover, &:focus, &.active {
